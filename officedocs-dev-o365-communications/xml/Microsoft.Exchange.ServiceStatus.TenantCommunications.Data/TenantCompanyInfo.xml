@@ -1,0 +1,146 @@
+﻿<Type Name="TenantCompanyInfo" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo">
+  <TypeSignature Language="C#" Value="public class TenantCompanyInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TenantCompanyInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class TenantCompanyInfo" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TenantCompanyInfo" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TenantCompanyInfo (Guid companyId, Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType tenantType, string[] skus, string[] serviceInstances);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid companyId, valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType tenantType, string[] skus, string[] serviceInstances) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.#ctor(System.Guid,Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType,System.String[],System.String[])" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TenantCompanyInfo(Guid companyId, Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::TenantType tenantType, cli::array &lt;System::String ^&gt; ^ skus, cli::array &lt;System::String ^&gt; ^ serviceInstances);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="companyId" Type="System.Guid" />
+        <Parameter Name="tenantType" Type="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType" />
+        <Parameter Name="skus" Type="System.String[]" />
+        <Parameter Name="serviceInstances" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="companyId">To be added.</param>
+        <param name="tenantType">To be added.</param>
+        <param name="skus">To be added.</param>
+        <param name="serviceInstances">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyId">
+      <MemberSignature Language="C#" Value="public Guid CompanyId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid CompanyId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.CompanyId" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompanyId As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid CompanyId { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutOfScopeEvents">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,DateTime&gt; OutOfScopeEvents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, valuetype System.DateTime&gt; OutOfScopeEvents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.OutOfScopeEvents" />
+      <MemberSignature Language="VB.NET" Value="Public Property OutOfScopeEvents As Dictionary(Of String, DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::Dictionary&lt;System::String ^, DateTime&gt; ^ OutOfScopeEvents { System::Collections::Generic::Dictionary&lt;System::String ^, DateTime&gt; ^ get(); void set(System::Collections::Generic::Dictionary&lt;System::String ^, DateTime&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceInstances">
+      <MemberSignature Language="C#" Value="public string[] ServiceInstances { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] ServiceInstances" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.ServiceInstances" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceInstances As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ ServiceInstances { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscriptions">
+      <MemberSignature Language="C#" Value="public string[] Subscriptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Subscriptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.Subscriptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subscriptions As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Subscriptions { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TenantType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType TenantType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType TenantType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.TenantType" />
+      <MemberSignature Language="VB.NET" Value="Public Property TenantType As TenantType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::TenantType TenantType { Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::TenantType get(); void set(Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::TenantType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

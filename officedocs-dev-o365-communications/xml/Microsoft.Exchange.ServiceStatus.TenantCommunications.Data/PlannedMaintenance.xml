@@ -1,0 +1,124 @@
+﻿<Type Name="PlannedMaintenance" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance">
+  <TypeSignature Language="C#" Value="public class PlannedMaintenance : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PlannedMaintenance extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance" />
+  <TypeSignature Language="VB.NET" Value="Public Class PlannedMaintenance&#xA;Inherits Event" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PlannedMaintenance : Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a planned maintenance event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PlannedMaintenance ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PlannedMaintenance();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AffectedServices">
+      <MemberSignature Language="C#" Value="public string[] AffectedServices { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] AffectedServices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance.AffectedServices" />
+      <MemberSignature Language="VB.NET" Value="Public Property AffectedServices As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ AffectedServices { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides a list of services associated with planned maintenance events.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlannedMaintenanceStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus PlannedMaintenanceStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus PlannedMaintenanceStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance.PlannedMaintenanceStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property PlannedMaintenanceStatus As PlannedMaintenanceStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::PlannedMaintenanceStatus PlannedMaintenanceStatus { Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::PlannedMaintenanceStatus get(); void set(Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::PlannedMaintenanceStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides the current status of planned maintenance.</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduledEndTime">
+      <MemberSignature Language="C#" Value="public DateTime ScheduledEndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ScheduledEndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance.ScheduledEndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScheduledEndTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ScheduledEndTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides the end date/time for the maintenance event(s).</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

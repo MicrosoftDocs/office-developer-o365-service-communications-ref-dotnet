@@ -1,0 +1,188 @@
+﻿<Type Name="MessageCenterMessage" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage">
+  <TypeSignature Language="C#" Value="public class MessageCenterMessage : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MessageCenterMessage extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage" />
+  <TypeSignature Language="VB.NET" Value="Public Class MessageCenterMessage&#xA;Inherits Event" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MessageCenterMessage : Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a message center message.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageCenterMessage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageCenterMessage();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionRequiredByDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ActionRequiredByDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ActionRequiredByDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.ActionRequiredByDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionRequiredByDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; ActionRequiredByDate { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember(IsRequired=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides the date by which customer actions should be completed.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Nullable</a>
+          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionType">
+      <MemberSignature Language="C#" Value="public string ActionType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActionType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.ActionType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ActionType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember(IsRequired=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides the message type.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
+        </value>
+        <remarks>
+          <para>Possible values are “1” for “Action”, “2” for “Opportunity”, and “3” for “Awareness”.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Category">
+      <MemberSignature Language="C#" Value="public string Category { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Category" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.Category" />
+      <MemberSignature Language="VB.NET" Value="Public Property Category As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Category { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember(IsRequired=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides the message category.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
+        </value>
+        <remarks>
+          <para>Possible values are “1” for “Prevent or Fix Issues”, “2” for “Plan for Change”, and “3” for “Stay Informed”.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalLink">
+      <MemberSignature Language="C#" Value="public string ExternalLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExternalLink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.ExternalLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalLink As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalLink { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember(IsRequired=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides a link to additional information about the message.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UrgencyLevel">
+      <MemberSignature Language="C#" Value="public string UrgencyLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UrgencyLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.UrgencyLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property UrgencyLevel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UrgencyLevel { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember(IsRequired=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides the urgency level of the message communication.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
+        </value>
+        <remarks>
+          <para>Possible values are “21” for “Critical”, “22” for “High”, and “23” for “Normal”.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,71 @@
+﻿<Type Name="TenantEventInfo" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo">
+  <TypeSignature Language="C#" Value="public class TenantEventInfo : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TenantEventInfo extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class TenantEventInfo&#xA;Inherits EventInfoBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TenantEventInfo : Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::EventInfoBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents information for a tenant event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TenantEventInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TenantEventInfo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventsByTenant">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;Guid,Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[]&gt; EventsByTenant { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;valuetype System.Guid, class Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[]&gt; EventsByTenant" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo.EventsByTenant" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventsByTenant As Dictionary(Of Guid, Event())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::Dictionary&lt;Guid, cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^&gt; ^ EventsByTenant { System::Collections::Generic::Dictionary&lt;Guid, cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^&gt; ^ get(); void set(System::Collections::Generic::Dictionary&lt;Guid, cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Guid,Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[]&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides a list of events associated with the queried tenant.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/xfhwa508">Dictionary</a>
+          <a href="http://msdn.microsoft.com/en-us/library/cey1zx63">Guid</a>
+          <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />[]&gt;</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

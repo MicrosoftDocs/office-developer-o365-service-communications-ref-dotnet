@@ -1,0 +1,97 @@
+﻿<Type Name="Message" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message">
+  <TypeSignature Language="C#" Value="public class Message" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Message extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message" />
+  <TypeSignature Language="VB.NET" Value="Public Class Message" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Message" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a message.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Message ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Message();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageText">
+      <MemberSignature Language="C#" Value="public string MessageText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message.MessageText" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MessageText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides text for the message.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishedTime">
+      <MemberSignature Language="C#" Value="public DateTime PublishedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime PublishedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message.PublishedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublishedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime PublishedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides the time of publishing.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "System",
+    "system.runtime.serialization"
+  ],
+  "o365-service-communications": [
+    "Microsoft.Exchange.ServiceStatus.TenantCommunications.Data"
+  ]
+}

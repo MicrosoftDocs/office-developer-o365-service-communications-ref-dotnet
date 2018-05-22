@@ -1,0 +1,68 @@
+﻿<Type Name="Incident" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Incident">
+  <TypeSignature Language="C#" Value="public class Incident : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Incident extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Incident" />
+  <TypeSignature Language="VB.NET" Value="Public Class Incident&#xA;Inherits Event" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Incident : Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Incident ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Incident.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Incident();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AffectedServiceHealthStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus[] AffectedServiceHealthStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus[] AffectedServiceHealthStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Incident.AffectedServiceHealthStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property AffectedServiceHealthStatus As ServiceHealthStatus()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::ServiceHealthStatus ^&gt; ^ AffectedServiceHealthStatus { cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::ServiceHealthStatus ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::ServiceHealthStatus ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

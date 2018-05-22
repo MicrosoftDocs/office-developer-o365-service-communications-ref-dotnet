@@ -1,0 +1,68 @@
+﻿<Type Name="RegionalEventInfo" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegionalEventInfo">
+  <TypeSignature Language="C#" Value="public class RegionalEventInfo : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RegionalEventInfo extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegionalEventInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class RegionalEventInfo&#xA;Inherits EventInfoBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RegionalEventInfo : Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::EventInfoBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RegionalEventInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegionalEventInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RegionalEventInfo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventsByRegion">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[]&gt; EventsByRegion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[]&gt; EventsByRegion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegionalEventInfo.EventsByRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventsByRegion As Dictionary(Of String, Event())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::Dictionary&lt;System::String ^, cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^&gt; ^ EventsByRegion { System::Collections::Generic::Dictionary&lt;System::String ^, cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^&gt; ^ get(); void set(System::Collections::Generic::Dictionary&lt;System::String ^, cli::array &lt;Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::Event ^&gt; ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[]&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
