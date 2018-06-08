@@ -1,0 +1,124 @@
+﻿<Type Name="EventInfoBase" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase">
+  <TypeSignature Language="C#" Value="public class EventInfoBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EventInfoBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventInfoBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EventInfoBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents information on events.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventInfoBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EventInfoBase();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventInfoType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType EventInfoType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType EventInfoType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase.EventInfoType" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventInfoType As EventInfoType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::EventInfoType EventInfoType { Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::EventInfoType get(); void set(Microsoft::Exchange::ServiceStatus::TenantCommunications::Data::EventInfoType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Represents the type of event.</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastCookie">
+      <MemberSignature Language="C#" Value="public string LastCookie { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastCookie" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase.LastCookie" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastCookie As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastCookie { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Provides the last call cookie.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceInfoChanged">
+      <MemberSignature Language="C#" Value="public bool ServiceInfoChanged { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ServiceInfoChanged" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase.ServiceInfoChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceInfoChanged As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ServiceInfoChanged { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates whether service information changed or not.</summary>
+        <value>
+          <a href="http://msdn.microsoft.com/en-us/library/a28wyd50">Boolean</a>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

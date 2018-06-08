@@ -1,0 +1,265 @@
+﻿<Type Name="ServiceStatus" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus">
+  <TypeSignature Language="C#" Value="public enum ServiceStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ServiceStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ServiceStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Specifies the status of the service.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExtendedRecovery">
+      <MemberSignature Language="C#" Value="ExtendedRecovery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus ExtendedRecovery = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ExtendedRecovery" />
+      <MemberSignature Language="VB.NET" Value="ExtendedRecovery" />
+      <MemberSignature Language="C++ CLI" Value="ExtendedRecovery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Incident resolution is in progress and will take a while to be completed. (3)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FalsePositive">
+      <MemberSignature Language="C#" Value="FalsePositive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus FalsePositive = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.FalsePositive" />
+      <MemberSignature Language="VB.NET" Value="FalsePositive" />
+      <MemberSignature Language="C++ CLI" Value="FalsePositive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Service investigation determined that a service incident did not occur. (6)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InformationUnavailable">
+      <MemberSignature Language="C#" Value="InformationUnavailable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus InformationUnavailable = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.InformationUnavailable" />
+      <MemberSignature Language="VB.NET" Value="InformationUnavailable" />
+      <MemberSignature Language="C++ CLI" Value="InformationUnavailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>The API could not process the request for information. (8)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Investigating">
+      <MemberSignature Language="C#" Value="Investigating" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus Investigating = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.Investigating" />
+      <MemberSignature Language="VB.NET" Value="Investigating" />
+      <MemberSignature Language="C++ CLI" Value="Investigating" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Service incident investigation is in progress. (4)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PIRPublished">
+      <MemberSignature Language="C#" Value="PIRPublished" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus PIRPublished = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.PIRPublished" />
+      <MemberSignature Language="VB.NET" Value="PIRPublished" />
+      <MemberSignature Language="C++ CLI" Value="PIRPublished" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>The post-incident report has been published. (7)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoringService">
+      <MemberSignature Language="C#" Value="RestoringService" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus RestoringService = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.RestoringService" />
+      <MemberSignature Language="VB.NET" Value="RestoringService" />
+      <MemberSignature Language="C++ CLI" Value="RestoringService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Incident resolution is in progress. (2)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceDegradation">
+      <MemberSignature Language="C#" Value="ServiceDegradation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus ServiceDegradation = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ServiceDegradation" />
+      <MemberSignature Language="VB.NET" Value="ServiceDegradation" />
+      <MemberSignature Language="C++ CLI" Value="ServiceDegradation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Service operation is temporarily degraded for some customers. (1)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceInterruption">
+      <MemberSignature Language="C#" Value="ServiceInterruption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus ServiceInterruption = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ServiceInterruption" />
+      <MemberSignature Language="VB.NET" Value="ServiceInterruption" />
+      <MemberSignature Language="C++ CLI" Value="ServiceInterruption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Service is temporarily not available for some customers. (0)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceOperational">
+      <MemberSignature Language="C#" Value="ServiceOperational" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus ServiceOperational = int32(99)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ServiceOperational" />
+      <MemberSignature Language="VB.NET" Value="ServiceOperational" />
+      <MemberSignature Language="C++ CLI" Value="ServiceOperational" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>99</MemberValue>
+      <Docs>
+        <summary>Service is healthy. (99)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceRestored">
+      <MemberSignature Language="C#" Value="ServiceRestored" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus ServiceRestored = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ServiceRestored" />
+      <MemberSignature Language="VB.NET" Value="ServiceRestored" />
+      <MemberSignature Language="C++ CLI" Value="ServiceRestored" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>The service incident is resolved and service is operational for all customers. (5)</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

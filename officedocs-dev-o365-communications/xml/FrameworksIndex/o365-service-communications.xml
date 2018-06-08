@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="o365-service-communications">
+  <Namespace Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data">
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.EndTime" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.Id" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.LastUpdatedTime" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.Messages" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.StartTime" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.Status" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.Title" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfo" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfo">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfo.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfo.Events" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase.EventInfoType" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase.LastCookie" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase.ServiceInfoChanged" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType">
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType.Full" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType.Incremental" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType">
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType.Incident" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType.MessageCenterMessage" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType.PlannedMaintenance" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Incident" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Incident">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Incident.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Incident.AffectedServiceHealthStatus" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.InternalMessageCenterMessage" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.InternalMessageCenterMessage">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.InternalMessageCenterMessage.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message.MessageText" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message.PublishedTime" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.ActionRequiredByDate" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.ActionType" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.Category" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.ExternalLink" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage.UrgencyLevel" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.#ctor(System.String,System.String,System.String,System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.Int32},System.DateTime,System.Nullable{System.DateTime},System.Int32)" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.AffectedRegions" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.AffectedTenantCount" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.CreatedOn" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.EditedOn" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.IncidentFriendlyId" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.IssueDescription" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.MosAlertId" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.NextCommunicationDate" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.SIETitle" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.TechnicalIssueDescription" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance.AffectedServices" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance.PlannedMaintenanceStatus" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance.ScheduledEndTime" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus">
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus.Canceled" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus.Complete" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus.InProgress" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus.Scheduled" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegionalEventInfo" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegionalEventInfo">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegionalEventInfo.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegionalEventInfo.EventsByRegion" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo.DomainToCompanyIdMapping" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo.Regions" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo.RegistrationCookie" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo.ServiceEndPointMapping" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo.SupportedEventTypes" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus.FeatureName" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus.InternalName" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus.Status" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus.InternalName" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus.ServiceFeatureStatus" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus.ServiceName" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceHealthStatus.Status" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceInformation" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceInformation">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceInformation.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceInformation.FeatureNames" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceInformation.ServiceName" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus">
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ExtendedRecovery" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.FalsePositive" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.InformationUnavailable" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.Investigating" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.PIRPublished" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.RestoringService" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ServiceDegradation" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ServiceInterruption" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ServiceOperational" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus.ServiceRestored" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.#ctor(System.Guid,Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType,System.String[],System.String[])" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.CompanyId" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.OutOfScopeEvents" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.ServiceInstances" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.Subscriptions" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantCompanyInfo.TenantType" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantDomainEventInfo" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantDomainEventInfo">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantDomainEventInfo.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantDomainEventInfo.EventsByTenantDomain" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo">
+      <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo.#ctor" />
+      <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo.EventsByTenant" />
+    </Type>
+    <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType">
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType.CompanyTenant" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType.MicrosoftSupportTenant" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType.SupportPartnerTenant" />
+      <Member Id="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType.SyndicatePartnerTenant" />
+    </Type>
+  </Namespace>
+</Framework>

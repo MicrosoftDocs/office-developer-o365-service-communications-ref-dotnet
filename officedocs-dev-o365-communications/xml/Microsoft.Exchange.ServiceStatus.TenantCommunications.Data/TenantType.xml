@@ -1,0 +1,116 @@
+﻿<Type Name="TenantType" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType">
+  <TypeSignature Language="C#" Value="public enum TenantType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TenantType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TenantType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TenantType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CompanyTenant">
+      <MemberSignature Language="C#" Value="CompanyTenant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType CompanyTenant = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType.CompanyTenant" />
+      <MemberSignature Language="VB.NET" Value="CompanyTenant" />
+      <MemberSignature Language="C++ CLI" Value="CompanyTenant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MicrosoftSupportTenant">
+      <MemberSignature Language="C#" Value="MicrosoftSupportTenant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType MicrosoftSupportTenant = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType.MicrosoftSupportTenant" />
+      <MemberSignature Language="VB.NET" Value="MicrosoftSupportTenant" />
+      <MemberSignature Language="C++ CLI" Value="MicrosoftSupportTenant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportPartnerTenant">
+      <MemberSignature Language="C#" Value="SupportPartnerTenant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType SupportPartnerTenant = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType.SupportPartnerTenant" />
+      <MemberSignature Language="VB.NET" Value="SupportPartnerTenant" />
+      <MemberSignature Language="C++ CLI" Value="SupportPartnerTenant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyndicatePartnerTenant">
+      <MemberSignature Language="C#" Value="SyndicatePartnerTenant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType SyndicatePartnerTenant = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType.SyndicatePartnerTenant" />
+      <MemberSignature Language="VB.NET" Value="SyndicatePartnerTenant" />
+      <MemberSignature Language="C++ CLI" Value="SyndicatePartnerTenant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

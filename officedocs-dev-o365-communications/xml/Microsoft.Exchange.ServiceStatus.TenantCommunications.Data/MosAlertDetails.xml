@@ -1,0 +1,314 @@
+﻿<Type Name="MosAlertDetails" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails">
+  <TypeSignature Language="C#" Value="public class MosAlertDetails" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MosAlertDetails extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails" />
+  <TypeSignature Language="VB.NET" Value="Public Class MosAlertDetails" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MosAlertDetails" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MosAlertDetails (string incidentFriendlyId, string affectedRegions, string sieTitle, Nullable&lt;DateTime&gt; nextCommunicationDate, string issueDescription, string technicalIssueDescription, Nullable&lt;int&gt; affectedTenantCount, DateTime createdOn, Nullable&lt;DateTime&gt; editedOn, int mosAlertId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string incidentFriendlyId, string affectedRegions, string sieTitle, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; nextCommunicationDate, string issueDescription, string technicalIssueDescription, valuetype System.Nullable`1&lt;int32&gt; affectedTenantCount, valuetype System.DateTime createdOn, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; editedOn, int32 mosAlertId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.#ctor(System.String,System.String,System.String,System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.Int32},System.DateTime,System.Nullable{System.DateTime},System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (incidentFriendlyId As String, affectedRegions As String, sieTitle As String, nextCommunicationDate As Nullable(Of DateTime), issueDescription As String, technicalIssueDescription As String, affectedTenantCount As Nullable(Of Integer), createdOn As DateTime, editedOn As Nullable(Of DateTime), mosAlertId As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MosAlertDetails(System::String ^ incidentFriendlyId, System::String ^ affectedRegions, System::String ^ sieTitle, Nullable&lt;DateTime&gt; nextCommunicationDate, System::String ^ issueDescription, System::String ^ technicalIssueDescription, Nullable&lt;int&gt; affectedTenantCount, DateTime createdOn, Nullable&lt;DateTime&gt; editedOn, int mosAlertId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="incidentFriendlyId" Type="System.String" />
+        <Parameter Name="affectedRegions" Type="System.String" />
+        <Parameter Name="sieTitle" Type="System.String" />
+        <Parameter Name="nextCommunicationDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="issueDescription" Type="System.String" />
+        <Parameter Name="technicalIssueDescription" Type="System.String" />
+        <Parameter Name="affectedTenantCount" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="createdOn" Type="System.DateTime" />
+        <Parameter Name="editedOn" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="mosAlertId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="incidentFriendlyId">To be added.</param>
+        <param name="affectedRegions">To be added.</param>
+        <param name="sieTitle">To be added.</param>
+        <param name="nextCommunicationDate">To be added.</param>
+        <param name="issueDescription">To be added.</param>
+        <param name="technicalIssueDescription">To be added.</param>
+        <param name="affectedTenantCount">To be added.</param>
+        <param name="createdOn">To be added.</param>
+        <param name="editedOn">To be added.</param>
+        <param name="mosAlertId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AffectedRegions">
+      <MemberSignature Language="C#" Value="public string AffectedRegions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AffectedRegions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.AffectedRegions" />
+      <MemberSignature Language="VB.NET" Value="Public Property AffectedRegions As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AffectedRegions { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AffectedTenantCount">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; AffectedTenantCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; AffectedTenantCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.AffectedTenantCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property AffectedTenantCount As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; AffectedTenantCount { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedOn">
+      <MemberSignature Language="C#" Value="public DateTime CreatedOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreatedOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.CreatedOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreatedOn As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreatedOn { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditedOn">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EditedOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EditedOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.EditedOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property EditedOn As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; EditedOn { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncidentFriendlyId">
+      <MemberSignature Language="C#" Value="public string IncidentFriendlyId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IncidentFriendlyId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.IncidentFriendlyId" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncidentFriendlyId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IncidentFriendlyId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IssueDescription">
+      <MemberSignature Language="C#" Value="public string IssueDescription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IssueDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.IssueDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property IssueDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IssueDescription { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MosAlertId">
+      <MemberSignature Language="C#" Value="public int MosAlertId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MosAlertId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.MosAlertId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MosAlertId As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MosAlertId { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextCommunicationDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; NextCommunicationDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; NextCommunicationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.NextCommunicationDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property NextCommunicationDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; NextCommunicationDate { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SIETitle">
+      <MemberSignature Language="C#" Value="public string SIETitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SIETitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.SIETitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property SIETitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SIETitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TechnicalIssueDescription">
+      <MemberSignature Language="C#" Value="public string TechnicalIssueDescription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TechnicalIssueDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MosAlertDetails.TechnicalIssueDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property TechnicalIssueDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TechnicalIssueDescription { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
