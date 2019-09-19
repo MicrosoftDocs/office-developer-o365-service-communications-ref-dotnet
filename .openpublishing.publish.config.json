@@ -39,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-o365-communications/xml",
         "OutputYamlFolder": "officedocs-dev-o365-communications/api",
         "Flatten": true,
-        "id": "officedocs-dev-o365-communications"
+        "id": "officedocs-dev-o365-communications",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-o365-communications/api/officedocs-dev-o365-communications/toc.yml"
@@ -88,8 +89,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }
