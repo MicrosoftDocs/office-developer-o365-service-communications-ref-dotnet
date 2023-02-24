@@ -39,6 +39,7 @@
       ]
     },
     "globalMetadata": {
+      "ms.service": "office-365",
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "ROBOTS": "INDEX,FOLLOW",
@@ -50,7 +51,6 @@
       "audience": "developer",
       "ms.reviewer": "",
       "ms.suite": "office",
-      "ms.prod": "office365",
       "ms.technology": "sdk",
       "ms.tgt_pltfrm": "dotnet",
       "apiPlatform": "dotnet"
